@@ -1,0 +1,151 @@
+
+\documentclass[12pt,a4paper]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{caption}
+\usepackage{hyperref}
+\geometry{margin=2.2cm}
+
+\title{Реализация метода нагруженных функций}
+\author{}
+\date{Апрель 2026}
+
+\begin{document}
+\maketitle
+
+\section*{Постановка}
+Рассматривается задача
+\[
+f(x)\to \inf,\qquad x\in X=\{x\in E^1:\ x\in X_0,\ g(x)\le 0\}.
+\]
+Для численного решения использованы два варианта функции нагружения:
+\[
+\Phi_{13}(t,x)=L\max\{f(x)-t,0\}+MP(x),
+\qquad
+\Phi_{32}(t,x)=L|f(x)-t|+MP(x),
+\]
+где
+\[
+P(x)=\max\{g(x),0\},\qquad L>0,\quad M>0.
+\]
+Функция
+\[
+\rho(t)=\inf_{x\in X_0}\Phi(t,x)
+\]
+строилась численно, после чего искался минимальный корень уравнения
+\[
+\rho(t)=0.
+\]
+
+\section*{Принятые допущения}
+В формулировке упражнения для пунктов а), б), г), д) перечислено по несколько вариантов ограничений и множеств \(X_0\). Для численного эксперимента были выбраны следующие постановки:
+\begin{itemize}
+    \item а) \(f(x)=\arctan x,\ g(x)=x^2-4,\ X_0=\{x\ge 1\}\);
+    \item б) \(f(x)=x\sin x,\ g(x)=x^2-1,\ X_0=\{x\ge 0\}\);
+    \item г) \(f(x)=1\) при \(x\le 1\), \(f(x)=x^{-1}\) при \(x>1\), \(g(x)=x-1,\ X_0=E^1\);
+    \item д) \(f(x)=1,\ g(x)=x,\ X_0=E^1\).
+\end{itemize}
+
+Для случаев \(X_0=E^1\) вычисления проводились на усечённом интервале \([-4,4]\), чего достаточно для выбранных примеров и построения графиков.
+
+\section*{Численная схема}
+Использовались параметры
+\[
+L=1,\qquad M=20.
+\]
+Внутренняя минимизация по \(x\) реализована сеточным поиском на равномерной сетке. Затем на сетке по \(t\) вычислялась функция \(\rho(t)\). Минимальный корень \(t_*\) определялся как наименьшее значение \(t\), для которого выполнено \(\rho(t)\le \varepsilon\), где \(\varepsilon=10^{-4}\).
+
+\section*{Итоговые результаты}
+\begin{center}
+\begin{tabular}{ccccccc}
+\toprule
+Задача & Вариант $\Phi$ & $x_*$ & $t_*$ & $f(x_*)$ & $\rho(t_*)$ & точное $f_*$ \\
+\midrule
+a & $\Phi_{13}$ & 1.0000 & 0.785298 & 0.785398 & 0.0001 & 0.785398 \\
+a & $\Phi_{32}$ & 1.0005 & 0.785548 & 0.785648 & 0.0001 & 0.785398 \\
+б & $\Phi_{13}$ & 0.0000 & -0.000100 & 0.000000 & 0.0001 & 0.000000 \\
+б & $\Phi_{32}$ & 0.0000 & -0.000100 & 0.000000 & 0.0001 & 0.000000 \\
+г & $\Phi_{13}$ & -4.0000 & 0.999900 & 1.000000 & 0.0001 & 1.000000 \\
+г & $\Phi_{32}$ & -4.0000 & 1.000100 & 1.000000 & 0.0001 & 1.000000 \\
+д & $\Phi_{13}$ & -4.0000 & 0.999900 & 1.000000 & 0.0001 & 1.000000 \\
+д & $\Phi_{32}$ & -4.0000 & 0.999900 & 1.000000 & 0.0001 & 1.000000 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Из таблицы видно, что оба варианта функции нагружения дают близкие значения минимального корня. Для задач а) и б) получены значения, совпадающие с точными минимумами с точностью до шага сетки. Для задач г) и д) минимум по \(x\) не единственный, поэтому численный алгоритм возвращает один из допустимых представителей.
+
+\section*{Графики}
+
+\subsection*{Задача а}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/a_graph1_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/a_graph1_phi32.png}
+\caption{График 1 для задачи а: исходная функция и найденное приближение экстремума для \(\Phi_{13}\) и \(\Phi_{32}\).}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/a_graph2_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/a_graph2_phi32.png}
+\caption{График 2 для задачи а: линии уровня \(\Phi(t,x)\) для двух вариантов функции нагружения.}
+\end{figure}
+
+\subsection*{Задача б}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/b_graph1_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/b_graph1_phi32.png}
+\caption{График 1 для задачи б.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/b_graph2_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/b_graph2_phi32.png}
+\caption{График 2 для задачи б.}
+\end{figure}
+
+\subsection*{Задача г}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/g_graph1_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/g_graph1_phi32.png}
+\caption{График 1 для задачи г.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/g_graph2_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/g_graph2_phi32.png}
+\caption{График 2 для задачи г.}
+\end{figure}
+
+\subsection*{Задача д}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/d_graph1_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/d_graph1_phi32.png}
+\caption{График 1 для задачи д.}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.48\textwidth]{graphs/d_graph2_phi13.png}
+\includegraphics[width=0.48\textwidth]{graphs/d_graph2_phi32.png}
+\caption{График 2 для задачи д.}
+\end{figure}
+
+\section*{Вывод}
+Для выбранных постановок численная реализация метода нагруженных функций отработала устойчиво. Оба варианта \(\Phi\) приводят к практически совпадающим значениям \(t_*\), а различия определяются дискретизацией по \(x\) и \(t\). В задачах с неединственным минимумом метод корректно находит допустимую точку, удовлетворяющую условию \(\rho(t_*)\approx 0\).
+
+\end{document}
