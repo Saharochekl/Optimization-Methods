@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  22 APR 2026 00:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  22 APR 2026 01:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Реализация метода нагруженных функций/report_loaded_functions.tex"
-(/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Реализация метода нагруженных функций/report_loaded_functions.tex
+**"/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Сведение задачи оптимального управления к задаче минимизации функции многих переменных/Task3.tex"
+(/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Сведение задачи оптимального управления к задаче минимизации функции многих переменных/Task3.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -547,30 +547,30 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count311
 \l__pdf_internal_box=\box63
-) (/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Реализация метода нагруженных функций/build/report_loaded_functions.aux)
-\openout1 = `report_loaded_functions.aux'.
+) (build/Task3.aux)
+\openout1 = `Task3.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Info: Redefining \th on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Info: Redefining \th on input line 20.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -628,132 +628,67 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 21.
- (/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Реализация метода нагруженных функций/build/report_loaded_functions.out) (/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Реализация метода нагруженных функций/build/report_loaded_functions.out)
+Package hyperref Info: Link coloring OFF on input line 20.
+ (build/Task3.out) (build/Task3.out)
 \@outlinefile=\write3
-\openout3 = `report_loaded_functions.out'.
+\openout3 = `Task3.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 24.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 23.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 24.
  (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<graphs/a_graph1_phi13.png, id=24, 578.16pt x 361.35pt>
-File: graphs/a_graph1_phi13.png Graphic file (type png)
-<use graphs/a_graph1_phi13.png>
-Package pdftex.def Info: graphs/a_graph1_phi13.png  used on input line 91.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/a_graph1_phi32.png, id=26, 578.16pt x 361.35pt>
-File: graphs/a_graph1_phi32.png Graphic file (type png)
-<use graphs/a_graph1_phi32.png>
-Package pdftex.def Info: graphs/a_graph1_phi32.png  used on input line 92.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/a_graph2_phi13.png, id=27, 578.16pt x 361.35pt>
-File: graphs/a_graph2_phi13.png Graphic file (type png)
-<use graphs/a_graph2_phi13.png>
-Package pdftex.def Info: graphs/a_graph2_phi13.png  used on input line 98.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/a_graph2_phi32.png, id=28, 578.16pt x 361.35pt>
-File: graphs/a_graph2_phi32.png Graphic file (type png)
-<use graphs/a_graph2_phi32.png>
-Package pdftex.def Info: graphs/a_graph2_phi32.png  used on input line 99.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/b_graph1_phi13.png, id=29, 578.16pt x 361.35pt>
-File: graphs/b_graph1_phi13.png Graphic file (type png)
-<use graphs/b_graph1_phi13.png>
-Package pdftex.def Info: graphs/b_graph1_phi13.png  used on input line 106.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/b_graph1_phi32.png, id=30, 578.16pt x 361.35pt>
-File: graphs/b_graph1_phi32.png Graphic file (type png)
-<use graphs/b_graph1_phi32.png>
-Package pdftex.def Info: graphs/b_graph1_phi32.png  used on input line 107.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}]
+
+[2]
+
+[3{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<materials/x_plot.png, id=54, 567.0786pt x 277.7577pt>
+File: materials/x_plot.png Graphic file (type png)
+<use materials/x_plot.png>
+Package pdftex.def Info: materials/x_plot.png  used on input line 164.
+(pdftex.def)             Requested size: 401.47144pt x 196.64566pt.
+<materials/y_plot.png, id=56, 567.0786pt x 277.7577pt>
+File: materials/y_plot.png Graphic file (type png)
+<use materials/y_plot.png>
+Package pdftex.def Info: materials/y_plot.png  used on input line 170.
+(pdftex.def)             Requested size: 401.47144pt x 196.64566pt.
+<materials/u_plot.png, id=57, 566.8377pt x 277.7577pt>
+File: materials/u_plot.png Graphic file (type png)
+<use materials/u_plot.png>
+Package pdftex.def Info: materials/u_plot.png  used on input line 176.
+(pdftex.def)             Requested size: 401.47144pt x 196.73042pt.
 
 
-[2 <./graphs/a_graph1_phi13.png> <./graphs/a_graph1_phi32.png> <./graphs/a_graph2_phi13.png> <./graphs/a_graph2_phi32.png>]
-<graphs/b_graph2_phi13.png, id=45, 578.16pt x 361.35pt>
-File: graphs/b_graph2_phi13.png Graphic file (type png)
-<use graphs/b_graph2_phi13.png>
-Package pdftex.def Info: graphs/b_graph2_phi13.png  used on input line 113.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/b_graph2_phi32.png, id=46, 578.16pt x 361.35pt>
-File: graphs/b_graph2_phi32.png Graphic file (type png)
-<use graphs/b_graph2_phi32.png>
-Package pdftex.def Info: graphs/b_graph2_phi32.png  used on input line 114.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/g_graph1_phi13.png, id=47, 578.16pt x 361.35pt>
-File: graphs/g_graph1_phi13.png Graphic file (type png)
-<use graphs/g_graph1_phi13.png>
-Package pdftex.def Info: graphs/g_graph1_phi13.png  used on input line 121.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/g_graph1_phi32.png, id=48, 578.16pt x 361.35pt>
-File: graphs/g_graph1_phi32.png Graphic file (type png)
-<use graphs/g_graph1_phi32.png>
-Package pdftex.def Info: graphs/g_graph1_phi32.png  used on input line 122.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/g_graph2_phi13.png, id=49, 578.16pt x 361.35pt>
-File: graphs/g_graph2_phi13.png Graphic file (type png)
-<use graphs/g_graph2_phi13.png>
-Package pdftex.def Info: graphs/g_graph2_phi13.png  used on input line 128.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/g_graph2_phi32.png, id=50, 578.16pt x 361.35pt>
-File: graphs/g_graph2_phi32.png Graphic file (type png)
-<use graphs/g_graph2_phi32.png>
-Package pdftex.def Info: graphs/g_graph2_phi32.png  used on input line 129.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
+[4 <./materials/x_plot.png> <./materials/y_plot.png>]
 
-
-[3 <./graphs/b_graph1_phi13.png> <./graphs/b_graph1_phi32.png> <./graphs/b_graph2_phi13.png> <./graphs/b_graph2_phi32.png> <./graphs/g_graph1_phi13.png> <./graphs/g_graph1_phi32.png>]
-<graphs/d_graph1_phi13.png, id=66, 578.16pt x 361.35pt>
-File: graphs/d_graph1_phi13.png Graphic file (type png)
-<use graphs/d_graph1_phi13.png>
-Package pdftex.def Info: graphs/d_graph1_phi13.png  used on input line 136.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/d_graph1_phi32.png, id=67, 578.16pt x 361.35pt>
-File: graphs/d_graph1_phi32.png Graphic file (type png)
-<use graphs/d_graph1_phi32.png>
-Package pdftex.def Info: graphs/d_graph1_phi32.png  used on input line 137.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/d_graph2_phi13.png, id=68, 578.16pt x 361.35pt>
-File: graphs/d_graph2_phi13.png Graphic file (type png)
-<use graphs/d_graph2_phi13.png>
-Package pdftex.def Info: graphs/d_graph2_phi13.png  used on input line 143.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-<graphs/d_graph2_phi32.png, id=69, 578.16pt x 361.35pt>
-File: graphs/d_graph2_phi32.png Graphic file (type png)
-<use graphs/d_graph2_phi32.png>
-Package pdftex.def Info: graphs/d_graph2_phi32.png  used on input line 144.
-(pdftex.def)             Requested size: 226.70963pt x 141.69234pt.
-
-
-[4 <./graphs/g_graph2_phi13.png> <./graphs/g_graph2_phi32.png> <./graphs/d_graph1_phi13.png> <./graphs/d_graph1_phi32.png> <./graphs/d_graph2_phi13.png> <./graphs/d_graph2_phi32.png>] (/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Реализация метода нагруженных функций/build/report_loaded_functions.aux)
+[5 <./materials/u_plot.png>] (build/Task3.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `report_loaded_functions.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Task3.out' has not changed.
+(rerunfilecheck)             Checksum: 9803EADA07AA5842EEADD84F5523B933;954.
  ) 
 Here is how much of TeX's memory you used:
- 14204 strings out of 473190
- 227202 string characters out of 5715800
- 632749 words of memory out of 5000000
- 37265 multiletter control sequences out of 15000+600000
- 571277 words of font info for 72 fonts, out of 8000000 for 9000
+ 14114 strings out of 473190
+ 222409 string characters out of 5715800
+ 627846 words of memory out of 5000000
+ 37184 multiletter control sequences out of 15000+600000
+ 570459 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,823b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on "/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Реализация метода нагруженных функций/build/report_loaded_functions.pdf" (4 pages, 964551 bytes).
+ 75i,8n,79p,787b,462s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
+Output written on build/Task3.pdf (5 pages, 329220 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
+ 15 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
