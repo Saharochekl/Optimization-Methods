@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  7 APR 2026 15:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.5.27)  1 JUN 2026 05:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -499,17 +499,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
 [1
 
 {/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<graphs/f1_return.png, id=16, 462.01178pt x 368.577pt>
+<graphs/f1_return.png, id=15, 462.01178pt x 368.577pt>
 File: graphs/f1_return.png Graphic file (type png)
 <use graphs/f1_return.png>
 Package pdftex.def Info: graphs/f1_return.png  used on input line 62.
 (pdftex.def)             Requested size: 373.3035pt x 297.81459pt.
-<graphs/f1_best_probe.png, id=18, 462.01178pt x 368.577pt>
+<graphs/f1_best_probe.png, id=17, 462.01178pt x 368.577pt>
 File: graphs/f1_best_probe.png Graphic file (type png)
 <use graphs/f1_best_probe.png>
 Package pdftex.def Info: graphs/f1_best_probe.png  used on input line 67.
 (pdftex.def)             Requested size: 373.3035pt x 297.81459pt.
-<graphs/f1_stat_grad.png, id=19, 462.01178pt x 368.577pt>
+<graphs/f1_stat_grad.png, id=18, 462.01178pt x 368.577pt>
 File: graphs/f1_stat_grad.png Graphic file (type png)
 <use graphs/f1_stat_grad.png>
 Package pdftex.def Info: graphs/f1_stat_grad.png  used on input line 72.
@@ -557,26 +557,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--106
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--106
-[]|\T2A/cmr/m/n/12 -
- []
-
-
-Overfull \hbox (64.19508pt too wide) in paragraph at lines 106--106
-\T2A/cmr/m/n/12 2354387861029107.000000| 
- []
-
-
-Overfull \hbox (58.32152pt too wide) in paragraph at lines 106--106
-[]|\T2A/cmr/m/n/12 471193491748421.875000| 
- []
-
-
-Overfull \hbox (152.66434pt too wide) in paragraph at lines 106--106
-[]|\T2A/cmr/m/n/12 388241977317951342191476171866112.000000| 
- []
-
-
 
 [5 <./graphs/f2_best_probe.png> <./graphs/f2_stat_grad.png>]
 <graphs/f3_return.png, id=42, 462.01178pt x 368.577pt>
@@ -604,26 +584,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--128
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--130
 []|\T2A/cmr/m/n/12 ��������������� ���-
- []
-
-
-Overfull \hbox (175.79283pt too wide) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/12 33538667156501788842402588896788480.000000| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/12 -
- []
-
-
-Overfull \hbox (164.0457pt too wide) in paragraph at lines 130--130
-\T2A/cmr/m/n/12 833753425849429972485978135199744.000000| 
- []
-
-
-Overfull \hbox (781.13586pt too wide) in paragraph at lines 130--130
-[]|\T2A/cmr/m/n/12 88568897398128708667345515170384032427824532872232621600693567111449549846758897809660031269854534267700860575512148627306635386272652197888.000000| 
  []
 
 
@@ -665,7 +625,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  57i,8n,65p,772b,241s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm2074.pfb>
-Output written on "/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Метод случайного поиска/build/report_random_search.pdf" (10 pages, 1618018 bytes).
+Output written on "/Users/zuha/Desktop/FKI/4 курс 2025-2026/8 семестр/Optimization Methods/Метод случайного поиска/build/report_random_search.pdf" (10 pages, 1638312 bytes).
 PDF statistics:
  117 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream
